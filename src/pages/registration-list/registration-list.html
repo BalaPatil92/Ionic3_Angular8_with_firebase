@@ -1,0 +1,25 @@
+<!--
+  Generated template for the RegistrationListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Registration List</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content >
+  <ion-list>
+    <ion-item *ngFor="let u of users;let i : index">
+      <ion-icon color="primary" name="people" item-start></ion-icon>
+        <!-- {{u.firstName}} - {{u.lastName}}
+        <p>{{u.address}}</p> -->
+        <ion-label>{{u.firstName}} - {{u.lastName}}</ion-label>
+        <ion-toggle (click)="update(u)" [(ngModel)]="u.isConfirm"></ion-toggle>
+        <ion-icon (click)="delete(u)" name="trash" color="danger" item-end></ion-icon>
+    </ion-item>
+  </ion-list>
+</ion-content>
