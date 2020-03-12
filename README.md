@@ -15,3 +15,9 @@
 
 
 ![Logo](/document_images/drawable-hdpi-icon.png)
+
+## Registration Page
+![Logo](/document_images/registration-form.png)
+
+## Registed Users
+![Logo](/document_images/registration-list.png)
