@@ -12,9 +12,7 @@
 ### 3.copy configuration to enviorment fuile to local source
 ### 4.create databse to firebase
 
-
-
-![Logo](/document_images/drawable-hdpi-icon.png)
+## Screenshots
 
 ## Registration Page
 ![Logo](/document_images/registration-form.png)
